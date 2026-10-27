@@ -8,27 +8,25 @@
 <!-- Favicon -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 
-<!-- SEO & Open Graph (Preview WhatsApp & LinkedIn) -->
+<!-- SEO & Open Graph -->
 <meta property="og:title" content="Faqih Al Fauzan — IT Developer & IT Support Portfolio">
 <meta property="og:description" content="S1 Teknik Informatika. Berpengalaman di Web Development, Server Monitoring, dan Infrastruktur IT.">
 <meta property="og:type" content="website">
 
 <title>Faqih Al Fauzan — Portfolio</title>
-
-<!-- External CSS Link -->
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="wrap nav">
-  <a class="brand" href="#home">FAQIH<span>.</span>DEV</a>
+  <a class="brand" href="index.html">FAQIH<span>.</span>DEV</a>
   <nav class="navlinks" aria-label="Navigasi utama">
-  <a href="index.html">Home</a>
-  <a href="proyek.html">Proyek</a>
-  <a href="sertifikasi.html">Sertifikasi</a>
-  <a href="index.html#tentang">Tentang</a>
-  <a href="index.html#kontak">Kontak</a>
-</nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="proyek.html">Proyek</a>
+    <a href="sertifikasi.html">Sertifikasi</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
 </header>
 
 <main>
@@ -36,14 +34,13 @@
   <div>
     <div class="eyebrow"><span class="dot"></span> Fresh Graduate · Informatika</div>
     
-    <!-- FOTO PROFIL (Ganti 'foto-faqih.jpg' dengan nama/path foto kamu) -->
     <img src="images/gue.jpg" alt="Faqih Al Fauzan" class="profile-avatar">
 
     <h1>Building useful<br><span>digital solutions.</span></h1>
     <p>Halo, saya <strong>Faqih Al Fauzan</strong> — lulusan S1 Teknik Informatika yang berfokus pada pengembangan aplikasi web, infrastruktur IT, pemantauan server, dan solusi digital bisnis.</p>
     <div class="actions">
-      <a class="btn primary" href="#proyek">Lihat proyek <span aria-hidden="true">&nbsp;↘</span></a>
-      <a class="btn secondary" href="images/Cv.Faqih Al Fauzan.pdf" target="_blank">Download CV (PDF) ↗</a>
+      <a class="btn primary" href="proyek.html">Lihat semua proyek ↘</a>
+      <a class="btn secondary" href="Cv-Faqih-Al-Fauzan.pdf" target="_blank">Download CV (PDF) ↗</a>
       <a class="btn" href="#kontak">Hubungi saya</a>
     </div>
   </div>
@@ -63,6 +60,95 @@
   </div>
 </section>
 
+<!-- Preview Proyek -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Selected work</div>
+      <h2>Proyek Pilihan</h2>
+      <p>Cuplikan proyek teknis utama yang pernah saya kerjakan.</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <div>
+          <div class="card-top"><div class="iconbox">⌁</div><span class="tag">Monitoring · Infrastruktur</span></div>
+          <h3>Real-time Server Monitoring</h3>
+          <p>Implementasi pemantauan server untuk studi kasus SMP Islam Al-Azhar 4 Kemandoran menggunakan Prometheus dan Grafana via Tailscale.</p>
+          <div class="tags"><span>Prometheus</span><span>Grafana</span><span>Linux</span></div>
+        </div>
+        <div class="card-links">
+          <a href="proyek.html">Detail Selengkapnya ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div>
+          <div class="card-top"><div class="iconbox">▤</div><span class="tag">Web App · Operasional</span></div>
+          <h3>Arridho Konveksi — Manajemen Produksi</h3>
+          <p>Aplikasi web interaktif untuk membantu alur kerja konveksi, pencatatan order, kebutuhan bahan, hingga pelacakan status produksi.</p>
+          <div class="tags"><span>HTML5</span><span>JavaScript</span><span>Workflow</span></div>
+        </div>
+        <div class="card-links">
+          <a href="proyek.html">Detail Selengkapnya ↗</a>
+        </div>
+      </article>
+    </div>
+    <div style="margin-top: 24px; text-align: center;">
+      <a href="proyek.html" class="btn secondary">Lihat Semua Proyek (4+) ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- Preview Sertifikasi -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Credentials</div>
+      <h2>Sertifikasi Utama</h2>
+      <p>Beberapa sertifikasi profesional dan kualifikasi yang diselesaikan.</p>
+    </div>
+    <div class="certgrid">
+      <article class="cert-card">
+        <a class="cert-image-link" href="images/BNSP Network Engineer_page-0001.jpg" target="_blank" rel="noopener noreferrer">
+          <img class="cert-image" src="images/BNSP Network Engineer_page-0001.jpg" alt="Sertifikat BNSP Network Engineer" loading="lazy">
+          <span class="cert-zoom">↗ Lihat sertifikat</span>
+        </a>
+        <div class="cert-info">
+          <span class="cert-label">SERTIFIKASI PROFESI</span>
+          <h3>Network Administrator Muda</h3>
+          <p>BNSP</p>
+        </div>
+      </article>
+
+      <article class="cert-card">
+        <a class="cert-image-link" href="images/BNSP Digital Marketing_page-0001.jpg" target="_blank" rel="noopener noreferrer">
+          <img class="cert-image" src="images/BNSP Digital Marketing_page-0001.jpg" alt="Sertifikat Digital Marketing" loading="lazy">
+          <span class="cert-zoom">↗ Lihat sertifikat</span>
+        </a>
+        <div class="cert-info">
+          <span class="cert-label">SERTIFIKASI PELATIHAN</span>
+          <h3>Digital Marketing Specialist</h3>
+          <p>BNSP / Pelatihan Digital</p>
+        </div>
+      </article>
+
+      <article class="cert-card">
+        <a class="cert-image-link" href="images/Google IT Support (1)_page-0001.jpg" target="_blank" rel="noopener noreferrer">
+          <img class="cert-image" src="images/Google IT Support (1)_page-0001.jpg" alt="Sertifikat Google IT Support" loading="lazy">
+          <span class="cert-zoom">↗ Lihat sertifikat</span>
+        </a>
+        <div class="cert-info">
+          <span class="cert-label">SERTIFIKASI INTERNASIONAL</span>
+          <h3>Google IT Support Professional</h3>
+          <p>Google / Coursera</p>
+        </div>
+      </article>
+    </div>
+    <div style="margin-top: 24px; text-align: center;">
+      <a href="sertifikasi.html" class="btn secondary">Lihat Semua Sertifikasi (9) ↗</a>
+    </div>
+  </div>
+</section>
 
 <section class="section" id="skill">
   <div class="wrap">
@@ -124,7 +210,6 @@
   <span>Designed for clarity · Built for the web</span>
 </footer>
 
-<!-- External JavaScript Link -->
 <script src="script.js"></script>
 </body>
 </html>
